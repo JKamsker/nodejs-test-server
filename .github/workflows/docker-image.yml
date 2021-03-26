@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
+        name: Heya
+        run: echo 'Jonas likes you <3'
+      -
         name: Checkout
         uses: actions/checkout@v2
       -
