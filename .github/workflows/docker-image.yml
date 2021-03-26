@@ -28,7 +28,7 @@ jobs:
       #     # ${{ secrets.GITHUB_TOKEN }}
       #     docker build -t docker.pkg.github.com/jkamsker/nodejs-test-server/chat .
       #     docker push docker.pkg.github.com/jkamsker/nodejs-test-server/chat
-      # - 
+      - 
         name: Deploying package to our awesome host
         uses: appleboy/ssh-action@master
         with:
